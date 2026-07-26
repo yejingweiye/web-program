@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dazi_community?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+      database: 0
+      timeout: 10000ms
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 2
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 50MB
+
+dazi:
+  jwt:
+    secret: dazi-community-secret-key-2026-32bytes-abcdef
+    expire-time: 86400000
+  business:
+    free-match-count: 3
+    free-chat-count: 5
+    circle-max-free: 6
+    circle-max-pay: 20
+    community-create-free: 1
+    community-create-price: 9.9
+    community-top-price: 5
+    site-top-price: 15
+    service-rate-min: 5
+    service-rate-max: 8
