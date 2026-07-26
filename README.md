@@ -16,15 +16,15 @@
 1. 直接运行sh start.sh脚本，自动拉取依赖、编译、启动后端和前端
 2. 配置mysql数据，分别执行初始化 init.sql 和 填充数据 seed_data.sql
 3. 访问 http://localhost:5173， 
-   - 手机号：13800138001
-   - 验证码（相当于密码）：1234
-4. 页面：
-   - 启动页面
-   <img src="./docs/program_start.png" width="620"/>
-   - 首页
-   <img src="./docs/home_page.png" width="620">
-   - 社区详情
-   <img src="./docs/community_detail.png" width="620">
+- 手机号：13800138001
+- 验证码（相当于密码）：1234
+4. 页面预览：
+- 启动页面  
+  <img src="./docs/program_start.png" width="620"/>
+- 首页  
+  <img src="./docs/home_page.png" width="620"/>
+- 社区详情  
+  <img src="./docs/community_detail.png" width="620"/>
     
 ## 核心功能模块
 - **账号实名模块**：手机号注册登录、微信快捷登录、三级实名、隐私设置、风控拦截
